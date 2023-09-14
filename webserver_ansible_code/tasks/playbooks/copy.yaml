@@ -1,5 +1,5 @@
   - name: copy httpd.conf file
     template:
-      src: httpd.conf
+      src: httpd.j2
       dest: "{{ destination_path }}"
     notify: restart service
