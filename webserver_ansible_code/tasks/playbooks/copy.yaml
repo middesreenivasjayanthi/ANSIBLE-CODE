@@ -1,4 +1,5 @@
   - name: copy httpd.conf file
     copy:
-      src: 
+      src: httpd.conf
       dest: /tmp/httpd.conf
+    notify: restart service
