@@ -1,0 +1,4 @@
+---
+- hosts: webservers
+  roles:
+    -  role: webserver_ansible_code
